@@ -20,17 +20,33 @@ OpenCarbonEval: A Unified Carbon Emission Estimating Framework
 
 - [2024/05/22] OpenCarbonEval paper, repo, and website released.
 
+
+
+## 💡 Introduction
+OpenCarbonEval is a unified framework for integrating large-scale models across diverse modalities to predict carbon emissions.
+### Overview
+
 <p align="center">
     <img src="./imgs/overview.png" width="800">
     <br>
     <em>Figure 1: The overview pipeline of OpenCarbonEval.</em>
 </p>
 
+### Dynamic Throughput Modeling
+In OpenCarbonEval, we propose a dynamic throughput modeling approach that could capture workload and hardware fluctuations in the training process for more precise emissions estimates.
+<p align="center">
+    <img src="./imgs/throughput_modeling.png" width="1000">
+    <br>
+    <em>Figure 2: Dynamic throghput modeling in OpenCarbonEval.</em>
+</p>
 
-## 💡 Introduction
-
-OpenCarbonEval is a unified framework for integrating large-scale models across diverse modalities to predict carbon emissions.
-
+### Throughput-α of different devices
+<p align="center">
+    <img src="./imgs/throughput-alpha.png" width="600">
+    <br>
+    <em>Figure 3: Throughput-α of different devices.</em>
+</p>
+## 📖 Leaderboard
 
 | Model             | Publication Date | Task         | Carbon Emission (tCO2eq) |
 |--------------------|------------------|-------------------|-------------|
