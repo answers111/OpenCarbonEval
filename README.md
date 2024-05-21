@@ -46,6 +46,7 @@ In OpenCarbonEval, we propose a dynamic throughput modeling approach that could 
     <br>
     <em>Figure 3: Throughput-α of different devices.</em>
 </p>
+
 ## 📖 Leaderboard
 
 | Model             | Publication Date | Task         | Carbon Emission (tCO2eq) |
